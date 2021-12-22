@@ -1,6 +1,9 @@
 # ModSecurity reCAPTCHA
 ModSecurity library for reCAPTCHA validation.
 
+# Requirements
+ * lua-http library
+
 # Usage example
 ```
 SecAction \
