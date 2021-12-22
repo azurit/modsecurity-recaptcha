@@ -2,7 +2,7 @@
 ModSecurity library for reCAPTCHA validation.
 
 ## Requirements
- * support for Lua in ModSecurity
+ * ModSecurity compiled with Lua support
  * lua-http library
 
 ## Usage example
