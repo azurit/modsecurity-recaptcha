@@ -12,7 +12,6 @@ SecAction \
     phase:1,\
     nolog,\
     pass,\
-    t:none,\
     setvar:'tx.recaptcha_secret_key=<secret/private_key_here>'"
 
 SecRule &ARGS:g-recaptcha-response "@gt 0" \
